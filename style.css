@@ -1,0 +1,259 @@
+.first-strip{
+    text-align: center !important;
+    align-items: center !important;
+    background: rgb(238, 4, 4);
+    padding-top: 10px !important;
+    width: 100% !important;
+    height: 50px !important;
+}
+
+.first-strip-text{
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+#second-strip{
+    height: 80px !important;
+    width: 100% !important;
+    display: flex;
+}
+
+#navbar-toggle-button{
+    display: none ;
+}
+
+.search-bar{
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+.input-search-bar{
+    width:400px !important;
+}
+
+#search{
+    color: white !important;
+    font-weight: bold;
+    background-color: rgb(238, 4, 4);
+    border: 4px solid rgb(238, 4, 4) !important;
+}
+
+.navbar-container{
+    background-color: white !important;
+    width: 100% !important;
+}
+
+.color-white{
+    color: white !important;
+}
+
+#name-website{
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#name-website:hover{
+    transition: 1s;
+    letter-spacing: 3px;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+#dropdown-text{
+    color: black !important;
+}
+
+.margin-dropdown{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.margin-top{
+    margin-top: 15px !important;
+}
+
+.dropdown-Menu{
+    background: none !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 14px !important;
+}
+
+.dropdown-Menu:hover{
+    color: red !important;
+}
+
+.Cordless_Drive_Drill{
+    margin-top: 50px;   
+}
+.card{
+    width: 200px;
+    height: 200px !important;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: rgb(238, 4, 4) !important;
+}
+
+#watsapp-icon{
+    width: 50px !important;
+    height: 50px !important;
+    position: relative;
+    top: 400px;
+    left: 1100px;
+}
+
+.extra-dropdown-div{
+    margin-top: 50px !important;
+    margin-left: 95% !important;
+    width: 50px !important;
+}
+
+.extra-dropdown-button{
+    background: rgb(4, 172, 238) !important;
+    color: white !important;
+    font-size: 24px !important;
+    border: none !important;
+    position: absolute !important;
+    bottom: 30em !important;
+}
+
+@media only screen and (max-width: 346px){
+    #first-strip{
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 194px){
+    #first-strip{
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width: 159px){
+    #first-strip{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 966px){
+    #second-strip{
+        height: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 854px){
+    #second-strip{
+        height: 130px !important;
+    }
+}
+
+@media only screen and (max-width: 966px){
+    #tech{
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 854px){
+    #power{
+        display: block !important;
+    }
+    .search-feild{
+        padding-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 171px){
+    #here{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1052px){
+    .margin-top{
+        margin-top: 15px !important ;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .dropdown-diappear{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #navbar-toggle-button{
+        display: block !important;
+        margin-top: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .search-bar{
+        padding-top: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1052px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 900px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 700px;
+    }
+}
+
+@media only screen and (max-width: 766px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 500px;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 300px;
+    }
+}
+
+@media only screen and (max-width: 385px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 150px;
+    }
+}
+
+@media only screen and (max-width: 230px){
+    #watsapp-icon{
+        position: relative;
+        top: 400px;
+        left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1220px){
+    .margin-top{
+        margin-top: 15px !important;
+    }
+}
